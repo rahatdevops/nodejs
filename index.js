@@ -2,11 +2,11 @@ var express = require('express');
 var app = express();
 
 app.get('/', function (req, res) {
-    res.send('{ "response": "Hello From page cloud" }');
+    res.send('{ "response": "Hello From Rahat cloud" }');
 });
 
 app.get('/will', function (req, res) {
-    res.send('{ "response": "Hello World" }');
+    res.send('{ "response": "Hello" }');
 });
 app.get('/ready', function (req, res) {
     res.send('{ "response": " Great!, It works!" }');
